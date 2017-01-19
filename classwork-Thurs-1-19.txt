@@ -1,0 +1,359 @@
+    1  sudo apt-get update
+    2  sudo reboot
+    3  sudo ./install_things.sh
+    4  cd /etc/apt/
+    5  ls
+    6  cd preferences.d/
+    7  ls
+    8  cd ../
+    9  ls
+   10  sudo sources.list
+   11  sudo gedit sources.list
+   12  ls
+   13  cd preferences.d/
+   14  ls
+   15  touch 01_release
+   16  sudo touch 01_release
+   17  sudo gedit 01_release 
+   18  sudo apt-get update
+   19  sudo apt-get install libgstreamer0.10-0 libgstreamer-plugins-base0.10-0.
+   20  ls
+   21  cd 
+   22  ls
+   23  cd Downloads/
+   24  ls
+   25  sudo gdebi rstudio-1.0.136-amd64.deb 
+   26  cd
+   27  apt-get install rstudio
+   28  sudo apt-get install rstudio
+   29  sudo apt-get -f install
+   30  ls
+   31  cd Downloads/
+   32  ls
+   33  sudo gdebi rstudio-1.0.136-amd64.deb 
+   34  sudo apt-get install rstudio
+   35  sudo rstudio 
+   36  cd
+   37  clear
+   38  =ls
+   39  clear
+   40  ls
+   41  cd Downloads/
+   42  ls
+   43  bash Miniconda3-latest-Linux-x86_64.sh 
+   44  df -h
+   45  cd
+   46  ls
+   47  conda update conda
+   48  exit
+   49  ls
+   50  conda update conda
+   51  ls
+   52  df -h
+   53  conda install numpy
+   54  df -h
+   55  conda install jupyter
+   56  ls
+   57  jupyter 
+   58  df -h
+   59  conda install numpy
+   60  conda install scipy
+   61  df -h
+   62  jupyter notebook
+   63  ls
+   64  clear
+   65  ls
+   66  cd Desktop/
+   67  ls
+   68  exit
+   69  global --user.name "Christina Zhou"
+   70  --global user.name "Christina Zhou"
+   71  ls
+   72  cd Desktop
+   73  ls
+   74  cd eeb-177
+   75  ls
+   76  cd lab-work
+   77  ls
+   78  exercise-1
+   79  cd exercise-1
+   80  ls 
+   81  gedit oneliner.txt
+   82  gedit one-liner.txt
+   83  cd ../
+   84  ls
+   85  $ who am i
+   86  who am i
+   87  $ whoami
+   88  PS1=$
+   89  cd Desktop
+   90  ls
+   91  cd homework
+   92  ls
+   93  PS=1
+   94  cd Desktop
+   95  ls
+   96  cd eeb-177
+   97  ls
+   98  cd homework
+   99  ls
+  100  git init
+  101  touch hw-1-12-2017
+  102  gedit hw-1-12-2017
+  103  git add hw-1-12-2017
+  104  git commit -m"added Absolute vs Relative Paths to Homework 1"
+  105  git log
+  106  git remote add origin https://github.com/eb177christinaz/homework.git
+  107  git push -u origin master
+  108  gedit hw-1-12-2017
+  109  git add hw-1-12-2017
+  110  git commit -m"Added Relative Path Resolution to Homework 1"
+  111  git push -
+  112  git push -u
+  113  gedit hw-1-12-2017
+  114  git add hw-1-12-2017
+  115  git commit -m"Adding ls Reading Comprehension to Homework 1"
+  116  git push -u
+  117  gedit hw-1-12-2017
+  118  git add hw-1-12-2017
+  119  git commit -m"Adding Exploring More ls Arguments to Homework 1" 
+  120  git push -u
+  121  gedit hw-1-12-2017
+  122  git add hw-1-12-2017
+  123  git commit -m"Adding Listing Recursively and By Time to Homework 1"
+  124  git push -u
+  125  gedit hw-1-12-2017
+  126  gedit 
+  127  cd Desktop/eeb-177/
+  128  ls
+  129  cd class-assignments
+  130  ls
+  131  gedit classwork-Tues-1-17
+  132  ls
+  133  -rm classwork-Tues-1-17
+  134  ls
+  135  rm classwork-Tues-1-17
+  136  ls
+  137  git init
+  138  git add classwork-Tues-1-17
+  139  git add classwork-Tues-1-17.txt
+  140  git commit-m"Initial commit:classwork-Tues-1-17"
+  141  git commit -m"initial commit:classwork-Tues-1-17"
+  142  git remote add origin https://github.com/eb177christinaz/class-assignments
+  143  git push origin master
+  144  git push -u
+  145  cd git push -u
+  146  git push -u
+  147  --global user.name"Christina Zhou"
+  148  --global user.email"christinahzhou@gmail.com"
+  149  cd Desktop
+  150  ls
+  151  cd eeb-177/classwork
+  152  cd eeb-177
+  153  ls
+  154  cd class-assignments
+  155  git log
+  156  git push -u
+  157  cd ../
+  158  cd CSB
+  159  cd unix
+  160  cd ../
+  161  cd CSB
+  162  cd unix
+  163  ls
+  164  cd installation
+  165  cd ../
+  166  cd installation/
+  167  cd ../
+  168  cd../
+  169  cd ../
+  170  cd CSB/unix/installation/
+  171  cd Desktop/eeb-177/CSB/unix/installation/
+  172  hgf
+  173  cd ../
+  174  cd../
+  175  cd ../
+  176  cd Desktop 
+  177  cd eeb-177/
+  178  cd CSB/
+  179  cd unix/
+  180  cd installation/
+  181  cd
+  182  cd Desktop
+  183  cd eeb
+  184  cd eeb-177/
+  185  cd CSB/
+  186  cd unix/
+  187  cd installation/
+  188  cd ../
+  189  cd ..
+  190  ls
+  191  cd class-assignments
+  192  touch badly named file.txt
+  193  cp bady named file.txt
+  194  ls
+  195  rm file 
+  196  rm badly
+  197  rm named
+  198  rm file.txt
+  199  ls
+  200  touch "badly named file.txt"
+  201  ls
+  202  cp "badly named file.txt"
+  203  cp badly\ named\ file.txt 
+  204  cp badly\ named\ file.txt ~
+  205  ls ~
+  206  ls
+  207  touch .config
+  208  ls
+  209  ls-a
+  210  ls -a
+  211  man bash
+  212  man
+  213  bash
+  214  man bash
+  215  cd ../
+  216  cd class-assignments/
+  217  ls
+  218  rm "badly named file.txt" 
+  219  ls
+  220  cd ../../
+  221  ls
+  222  cd ../
+  223  ls
+  224  rm "badly named file.txt" 
+  225  cd Desktop/eeb-177/class-assignments/
+  226  ls
+  227  cp readme.txt ~/dontreadme.txt
+  228  ls~
+  229  ls ~
+  230  history
+  231  history > tempt.txt
+  232  ls -l
+  233  less tempt.txt
+  234  cd Desktop/eeb-177/class-assignments/
+  235  ls > temp.txt
+  236  ls >> temp.xt
+  237  ls
+  238  rm temp.xt
+  239  ls -a
+  240  rm tempt.txt
+  241  ls -a >> classwork-Tues-1-17.txt 
+  242  less classwork-Tues-1-17.txt 
+  243  git add classwork-Tues-1-17.txt
+  244  git commit -m"Adding classwork ls -a >> xxx"
+  245  git push -
+  246  git push -u
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd lab-work
+  251  ls
+  252  cd exercise-1
+  253  ls
+  254  git add Screenshot-1-17-17-github
+  255  gedit Screenshot-1-17-17-github
+  256  sudo apt-get update
+  257  sudo apt-get install gnome-screenshot
+  258  sudo reboot
+  259  cd ~/Desktop/eeb-177/lab-work/
+  260  mkdir exercise-2
+  261  cd exercise-
+  262  exerxise-2
+  263  cd exercise-2
+  264  touch README.txt
+  265  gedit README
+  266  ls
+  267  gedit README.txt
+  268  git add README.txt
+  269  git commit -m"initial commit: exercise-2 readme file"
+  270  git push -u
+  271  cd ..
+  272  ls
+  273  cd 01-my-favorite-animals/
+  274  ls
+  275  git log
+  276  ls
+  277  cd ..
+  278  ls
+  279  cd lab-work
+  280  ls
+  281  cd exercise-2
+  282  ls
+  283  git add --all
+  284  git log
+  285  git commit -m"inital commit: adding all screenshots from regular expression lessons"
+  286  git push -u
+  287  cd ..
+  288  cd..
+  289  cd ..
+  290  ls
+  291  cd class-assignments/
+  292  gedit thursday-1-19.txt
+  293  ls
+  294  rm thurs-1-12-2017
+  295  cd-1-12-2017
+  296  ls -a
+  297  touch classwork-Thurs-1-19.txt
+  298  gedit classwork-Thurs-1-19.txt 
+  299  ls
+  300  git add classwork-Thurs-1-19.txt
+  301  git commit -m"initial commit: thursday classwork 1-19"
+  302  git push -u
+  303  ls
+  304  ls -a
+  305  cd ..
+  306  ls
+  307  cd CS
+  308  cd CSB/
+  309  ls
+  310  cd unix
+  311  ls
+  312  ls -a 
+  313  cd data
+  314  ls 
+  315  gedit Marra2014_data.fasta
+  316  wc Marra2014_
+  317  gedit Marra2014_data.fasta
+  318  man wc
+  319  ls
+  320  wc -l Marra2014_about.txt 
+  321  man wx
+  322  mc -1 Marra2-14_data.fasta
+  323  wc -l Marra2014_data.fasta 
+  324  cd Desktop/eeb-177/class-assignments/
+  325  ls
+  326  cd ..
+  327  ls
+  328  cd CSB/unix/data/
+  329  ls
+  330  wc -l Marra2014_data.fasta 
+  331  cd ..
+  332  cd data
+  333  touch toremove.txt ~/Desktop/eeb-177/CSB/unix/sandbox/
+  334  cd ..
+  335  cd sandbox
+  336  ls
+  337  ls - a
+  338  ls 
+  339  ls
+  340  cd 
+  341  cd Desktop/eeb-177/CSB
+  342  cd unix
+  343  ls
+  344  cd data
+  345  touch toremove.txt ../
+  346  touch toremove.txt ../solutions/
+  347  ls ../solutions/
+  348  ls -a ../solutions/
+  349  cd
+  350  cd Desktop/eeb-177/CSB/
+  351  cd unix/data/
+  352  touch removeme.txt ~/Desktop/eeb-177/CSB/unix/sandbox/
+  353  ls ../sandbox/
+  354  touch ~/Desktop/eeb-177/CSB/unix/sandbox/removeme.txt
+  355  ls ../sandbox/
+  356  cd ../sandbox/
+  357  cd ../data
+  358  ls ../sandbox/
+  359  history >> ~/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt 
