@@ -2,3 +2,82 @@ Classwork 1/24
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-17.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt
+
+Classwork today
+  336  ls
+  337  cd CSB
+  338  ls
+  339  cd unix
+  340  cd sandbox
+  341  wget https://tinyurl.com/cep-taxa -O cep-taxa.txt
+  342  grep Orchid acea cep-taxa.txt
+  343  grep -n Orchidacea cep-taxa.txt
+  344  grep -c Orchidacea cep-taxa.txt 
+  345  grep Orchidaceae
+  346  cd
+  347  cd Desktop/eeb-177/class-assignments/
+  348  https://tinyurl.com/cep-taxa -O cep-taxa.txt
+  349  grep https://tinyurl.com/cep-taxa -O cep-taxa.txt
+  350  ls
+  351  cd ..
+  352  cd CSB/unix/sandbox/
+  353  ls
+  354  grep -i ara cep-taxa.txt 
+  355  grep -i -w cep-taxa.txt 
+  356  cd Desktop/eeb-177/CSB/unix/sandbox/
+  357  grep Cebus cep-taxa.txt 
+  358  grep -B 3 Cebus cep-taxa.txt 
+  359  grep -B 3 -i -w cebus cep-taxa.txt 
+  360  grep iguanas cep-taxa.txt 
+  361  grep iguana cep-taxa.txt 
+  362  grep -n iguana cep-taxa.txt 
+  363  grep -n -i -w iguana cep-taxa.txt 
+  364  grep -v -i -w ara cep-taxa.txt 
+  365  grep -n -v -i -w ara cep-taxa.txt 
+  366  grep -c -v ara cep-taxa.txt 
+  367  grep -c -v -i -w ara cep-taxa.txt 
+  368  grep -v -c -i -w ara cep-taxa.txt 
+  369  grep -v -c -i -w ara cep-taxa.txt > non-macaws.txt
+  370  find .*
+  371  find .
+  372  find ../sandbox/
+  373  find ../data
+  374  find ../data/| wc -l
+  375  find ../data/ -name 30.txt"
+
+q
+  376  find -name "30.txt" ../data/
+  377  find ../data/ -name "n30.txt"
+  378  find /home/eeb177-student/Desktop/ -name "classwork-Tuesday-1-17.txt"
+  379  find /home/eeb177-student/D -name "classwork-Tues-1-17.txt"
+  380  ls cd ../../../class-assignments/
+  381  find /home/eeb177-student/Desktop/ -name "classwork-Tues-1-17.txt"
+  382  find ../data -iname "*about*"
+  383  find ../class-assignments iname "*classwork*"
+  384  find /home/eeb177-student/Desktop/eeb-177/class-assignments/ iname "*classwork*"
+  385  find /home/eeb177-student/Desktop/eeb-177/class-assignments/ - iname "*classwork*"
+  386  find ../../../../../Desktop/eeb-177/class-assignments/ -iname "*classwork*"
+  387  find ../../../../../Desktop/eeb-177/class-assignments/ -iname "*classwork*" >> ../../../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  388  gedit ../../../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  389  cd
+  390  cd Desktop/eeb-177/class-assignments/
+  391  ls
+  392  git add classwork-Tues-1-24.txt 
+  393  git commit -m"second commit: adding classwork history"
+  394  git push -u
+  395  gedit classwork-Tues-1-24.txt 
+  396  git add classwork-Tues-1-24.txt 
+  397  git commit -m"added header"
+  398  git push
+  399  cd ..
+  400  ls
+  401  cd CSB/unix/sandbox/
+  402  touch permissions.txt
+  403  ls -l
+  404  chmod u=rwx permissions.txt
+  405  ls -l
+  406  history
+  407  history 75
+  408  history-75
+  409  history 4
+  410  history 75 >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt 
