@@ -1,0 +1,100 @@
+  670  touch researchnotes.txt
+  671  gedit researchnotes.txt 
+  672  git add regex_hw.txt 
+  673  git commit -m"answered question 1 and 2 of research data question"
+  674  git push -u
+  675  gedit originofspecies.txt 
+  676  git add regex_hw.txt 
+  677  git commit -m"changed answer to question 2 for origins of species"
+  678  git push -u
+  679  gedit originofspecies.txt 
+  680  git add regex_hw.txt 
+  681  git commit -m"answer to question 3
+  682  git commit -m"answer to question 3"
+  683  git push -u
+  684  ls
+  685  gedit regex_hw.txt
+  686  git add regex_hw.txt 
+  687  git commit -m"new answer to question 3"
+  688  git push -u
+  689  gedit regex_hw.txt
+  690  git add regex_hw.txt 
+  691  git commit -m"changing question 4 origin of species"
+  692  git push -u
+  693  gedit regex_hw.txt
+  694  git add regex_hw.txt 
+  695  git commit -m"changed answer to question 1 for research"
+  696  git push -u
+  697  gedit regex_hw.txt
+  698  cd Desktop/eeb-177/class-assignments/
+  699  ls
+  700  touch classwork-Thurs-1-26.txt
+  701  git add classwork-Thurs-1-26.txt 
+  702  git commit -m"initial commit: classwork 1/26"
+  703  git push -u
+  704  gedit classwork-Thurs-1-26.txt 
+  705  gedit
+  706  ls
+  707  ls -l
+  708  ls \usr\bin
+  709  ls \usr \bin
+  710  ls /usr /bin
+  711  ls /bin
+  712  $PATH
+  713  cd
+  714  pwd
+  715  mkdir scripts
+  716  ls
+  717  cd scripts/
+  718  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+  719  ls
+  720  cd
+  721  gedit .bash_profile
+  722  ls -a
+  723  cd scripts/
+  724  ls -l
+  725  chmod u+x dir.sh 
+  726  ls -l
+  727  gedit dir.sh 
+  728  cd Desk
+  729  cd
+  730  cd Desktop/
+  731  ./dir.sh
+  732  cd
+  733  ls
+  734  ls -a
+  735  gedit .profile 
+  736  sudo reboot
+  737  $PATH
+  738  cd scripts/
+  739  gedit ls -l
+  740  ls
+  741  ls -l
+  742  cd ..
+  743  cd Desktop/
+  744  dir.sh
+  745  cd ..
+  746  cd scripts/
+  747  gedit dir.sh 
+  748  cd ..
+  749  cd Desktop/
+  750  dir.sh
+  751  cd
+  752  cd scripts/
+  753  gedit dir.sh 
+  754  cd
+  755  cd Desktop/
+  756  cd 
+  757  cd scripts/
+  758  gedit in_class_script.sh
+  759  ls -l
+  760  chmod u+x in_class_script.sh 
+  761  ls -l
+  762  cd ~/Desktop/eeb-177/lab-work/
+  763  ls
+  764  git status
+  765  in_class_script.sh 
+  766  cd ..
+  767  cd class-assignments/
+  768  ipython
+  769  history 100 >> classwork-Thurs-1-24.txt
