@@ -9,8 +9,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Loading my first data file
 Load in the CSV file I created
+control + enter can be used instead of knit as a shortcut without loading up the whole window
 ```{r cats}
-cats <-read.csv(file="data/feline-data.csv")
+cats <-read.csv(file="data/feline-data.csv",as.is = T)
 cats
+str(cats)
+cats$weight
+cats$weight+2
+typeof(cats$coat)
+as.character(cats$coat) -> dd
+#
 ```
 
