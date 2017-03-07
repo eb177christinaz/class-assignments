@@ -1,0 +1,53 @@
+---
+title: "classwork-tues-3-7"
+author: "Christina Zhou"
+date: "March 7, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+data(graptPBDB)
+head(graptOccPBDB)
+     
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank = "species")
+head(occSpecies)
+#plotting species occurances
+plotOccData(occSpecies, groupLabel = "species")
+#convert occurance data to timelist format
+graptTimeSpecies <- occData2timeList(occList=occSpecies)
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+head(graptTimeSpecies)
+
+occGenera <-taxonSortPBDBocc(graptOccPBDB, rank = "genus")
+occFamily <- taxonSortPBDBocc(graptOccPBDB, rank = "family")
+
+pdf(file="dtt.pdf")
+taxicDivDisc(graptTimeSpecies)
+taxicDivDisc(graptTimeGenus)
+taxicDivDisc(graptTimeFamily)
+dev.off()
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+libray(paleobioDB)
+lirary()
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
